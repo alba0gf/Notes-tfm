@@ -1,0 +1,54 @@
+
+# Directories
+project_dir: 'K:/keypoint-moseq/mi_project'
+video_dir: 'K:/labeling/labels.v001.slp'
+
+#==================== ANATOMY =====================#
+
+# used to access columns in the keypoint data
+bodyparts:
+- Nose
+- Spine_1
+- Center
+- Spine_2
+- Tail_base
+- Tail_1
+- Tail_2
+- Tail_tip
+- Right_ear
+- Left_ear
+- Right_fhip
+- Left_fhip
+- Right_bhip
+- Left_bhip
+
+# determines the subset of bodyparts to use for modeling and the order in which they are represented
+use_bodyparts:
+- Nose
+- Spine_1
+- Center
+- Spine_2
+- Right_ear
+- Left_ear
+- Right_fhip
+- Left_fhip
+- Right_bhip
+- Left_bhip
+
+
+anterior_bodyparts:
+- Nose
+- Spine_1
+- Right_ear
+- Left_ear
+- Right_fhip
+- Left_fhip
+
+posterior_bodyparts:
+- Spine_2
+- Tail_base
+- Tail_1
+- Tail_2
+- Tail_tip
+- Right_bhip
+- Left_bhip

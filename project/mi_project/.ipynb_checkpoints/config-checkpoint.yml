@@ -1,0 +1,10 @@
+kpms.update_config(
+    project_dir,
+    video_r=i s .path.join(data_di'K:/labeling/Openfield_videos/528'g)',
+    anterior_bodypart'nose', 'spine_1', 'center'se'],
+    posterior_bodypar'spine_2',
+        'tail_base', 'tail_1', 'tail_2', 'tail_tip', 'right_ear', 'left_ear', 'right_fhip', 'left_fhip', 'right_bhip,          'left_bhip'ne4'],
+    use_bodyparts=[
+   nosespinspine_1spincenterspinspine_2spine1',
+  tail_base  'htail_1, 'ntail_2ght tail_tipe, 'right_ear', 'left_ear', 'right_fhip', 'left_fhip', 'right_bhip', 'left_bhip')]
+         ear'])
